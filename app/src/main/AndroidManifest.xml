@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.postit.postit_">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Student_Visitor.ExplorerNote"></activity>
+        <activity android:name=".Student_Visitor.previewnote" />
+        <activity
+            android:name=".Admin.admin_browse_notes"
+            android:parentActivityName=".Admin.PopUpWindowAdmin" />
+        <activity android:name=".Admin.requestadmin" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".Student_Visitor.favoritelist" />
+        <activity android:name=".Student_Visitor.StudentActivity" />
+        <activity android:name=".Student_Visitor.mynotes" />
+        <activity android:name=".Admin.mainAdmin" />
+        <activity android:name=".Student_Visitor.forgetPasswordActivity" />
+        <activity android:name=".Student_Visitor.CreateAccountActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.AdminActivity" />
+        <activity
+            android:name=".Student_Visitor.Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Student_Visitor.popUpWindow"
+            android:theme="@style/AppTheme.pop" />
+        <activity
+            android:name=".Admin.PopUpWindowAdmin"
+            android:theme="@style/AppTheme.pop2" />
+        <activity
+            android:name=".Student_Visitor.creatnotepopup"
+            android:theme="@style/AppTheme.pop4" />
+        <activity
+            android:name=".Student_Visitor.popupwindowchapters"
+            android:theme="@style/AppTheme.pop5" />
+    </application>
+
+</manifest>
